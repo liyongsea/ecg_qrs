@@ -32,10 +32,7 @@ The objective of this project is to build and evaluate a robust algorithm to aut
 * Focus on speed and simplicity over perfect accuracy.
 
 ### Phase 3: Metrics & Evaluation
-* Define standard performance metrics for event detection:
-    * **True Positive (TP):** A beat correctly detected within a tolerance window (e.g., 150ms).
-    * **False Positive (FP):** A detection where no beat exists.
-    * **False Negative (FN):** A missed beat.
+* Define standard performance metrics.
 * Implement an evaluation script to calculate **Sensitivity (Recall)** and **Positive Predictive Value (Precision)** against the MIT-BIH annotations.
 
 ### Phase 4: Optimization
